@@ -5,7 +5,7 @@
 
 ---
 
-## 🌸 Personal Portfolio Website (Dinamis)
+## 🌸 Personal Portfolio Website 
 
 Project ini dikembangkan sebagai pemenuhan tugas **Praktikum Mini Project 2**. Fokus utama pada tahap ini adalah transformasi website dari statis (HTML/Vue.js) menjadi **dinamis (PHP)**. Seluruh data utama pada website kini dikelola melalui database MySQL, memungkinkan pembaruan konten tanpa mengubah kode sumber.
 
