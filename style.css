@@ -228,6 +228,18 @@ body {
   font-size: 0.75rem;
 }
 
+.cert-btn-view {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-mid);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.cert-btn-view:hover {
+  color: var(--text-dark);
+}
+
 /* ===========================
    FOOTER
    =========================== */

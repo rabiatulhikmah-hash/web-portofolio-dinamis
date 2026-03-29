@@ -113,7 +113,7 @@ $certificates = mysqli_query($koneksi, 'SELECT * FROM certificates');
     <div class="row g-4 justify-content-center">
       <?php while ($cert = mysqli_fetch_assoc($certificates)) : ?>
         <div class="col-12 col-sm-6 col-lg-4">
-          <div class="cert-card h-100">
+          <div class="cert-card h-100" onclick="window.open('<?= $cert['link'] ?>', '_blank')" style="cursor: pointer;">
             <div class="cert-icon"><i class="<?= $cert['icon'] ?>"></i></div>
             <h5 class="cert-title"><?= $cert['judul'] ?></h5>
             <p class="cert-meta"><i class="bi bi-building me-1"></i><?= $cert['provider'] ?></p>
